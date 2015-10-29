@@ -1,3 +1,0 @@
-break *0x400d27
-break *0x4019dd
-
