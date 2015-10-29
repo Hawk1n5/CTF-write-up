@@ -10,7 +10,7 @@ Copy the code to a.py the run this script to get solved.
 
 And another difference is system have ASLR.
 
-So I want a easy solution.write a ROP in heap which is first add paper name.then leak libc base,overwrite rbp to ret to heap,and execution ROP,I want to call mprotect,and ret to shellcode.I find a gadget can use.
+So I want a easy solution.write a ROP in heap which is add paper name.then leak libc base,overwrite rbp to ret to heap,and execution ROP,I want to call mprotect,and ret to shellcode.I find a gadget can use.
 
   4019d0:	4c 89 ea             	mov    %r13,%rdx
 
