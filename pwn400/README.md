@@ -2,7 +2,9 @@ This challenage have some difference as pwn350.
 
 First one is test,it need to crack a sha1,like this:
 
-Solve a puzzle: find an x such that `SHA1(x)[-3:]=='\xff\xff\xff' and len(x)==29 and x[:24]==161d1717101b1217191a1514`
+Solve a puzzle: find an x such that 
+
+`SHA1(x)[-3:]=='\xff\xff\xff' and len(x)==29 and x[:24]==161d1717101b1217191a1514`
 
 You can find the solve in https://fail0verflow.com/blog/2014/plaidctf2014-crypto375-wheeeee.html.
 
