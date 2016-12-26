@@ -1,7 +1,6 @@
 This challenge is same as pwn250.just have some protect
 
-gdb-peda$ checksec 
-
+```
 CANARY    : ENABLED
 
 FORTIFY   : disabled
@@ -11,7 +10,7 @@ NX        : ENABLED
 PIE       : disabled
 
 RELRO     : Partial
-
+```
 In this time, NX is enable,so shellcode can not use,try some time ago,you can find server not open ASLR.
 
 so system address are not random.so first time need to find system addres.
